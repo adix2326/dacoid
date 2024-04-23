@@ -6,7 +6,7 @@ const page1 = () => {
   return (
     <div className='w-screen p-5 flex flex-col justify-center gap-10'>
         <div className='flex flex-row justify-end'>
-            <Link to="register">
+            <Link to="/register">
                 <button className='text-blue-800 text-xl underline'>Skip</button>
             </Link>
         </div>
@@ -16,7 +16,7 @@ const page1 = () => {
             <p>Let's keep burning to achieve your goals, it hurts only temporarily, if you give up now you will be in pain forever</p>
         </div>
         <div className='flex justify-end'>
-            <Link to="register">
+            <Link to="/register">
                 <NextBtn/>
             </Link>
         </div>
